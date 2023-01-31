@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Login() {
   return (
-    <div className='flex flex-col justify-around gap-5 p-6 m-auto w-98% mt-50'>
+    <div className='loginMain'>
       <svg 
         className='m-auto'
         width="187" height="168" viewBox="0 0 187 168" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,13 +21,23 @@ export default function Login() {
         <path d="M82.1442 95.5629C82.1442 94.3388 85.5814 91.9344 88.0614 90.7541C89.9323 89.8798 91.5856 89.0929 92.4558 90.2295C93.0649 91.0164 93.2824 92.6776 92.7168 93.5082C91.6726 95.1694 89.6277 93.5082 86.8867 96C86.1905 96.612 84.2326 97.4426 83.2754 97.2241C82.4488 97.0055 82.1442 96.2186 82.1442 95.5629Z" fill="#1B4DB1"/>
       </svg>
 
-      <h1 className='font-bold text-30'> Login </h1>
+      <h1 className='font-bold text-3xl'> Login </h1>
       <p className='text-grey2'>Login with the data you entered during your registration.</p>
-      <form className='flex flex-col gap-3 w-full m-auto'>
+      <a 
+        className='text-blue font-bold w-max'
+        href="./home">Back</a>
+      <form className='formLogin'>
         <span>Email</span>
-        <input type="text" placeholder='Enter your email' className='border-solid border-black border-2 px-2 py-3 rounded-md'/>
+        <input 
+          type="text" 
+          placeholder='Enter your email' 
+          className='formInput'/>
         <span>Password</span>
-        <input type="password" placeholder='Enter your password' className='border-solid border-black border-2 px-2 py-3 rounded-md'/>        <button className='bg-blue px-2 py-3 font-bold text-white rounded-lg'>Log In</button>
+        <input 
+          type="password" 
+          placeholder='Enter your password' 
+          className='formInput'/>        
+        <button className='buttonForm'>Log In</button>
       </form>
         <span className='m-auto'>Did you forget your password?</span>
     </div>
