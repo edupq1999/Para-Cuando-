@@ -95,10 +95,31 @@ body {
 }
 @layer components{
   .header{
-    @apply flex items-center justify-between bg-black px-2 text-white h-20;
+    @apply flex items-center justify-between bg-black px-4 text-white h-20;
   }
   .headerOption{
     @apply flex gap-1;
+  }
+  .sectionCards{
+    @apply m-6;
+  }
+  .sectionCardsTitle{
+    @apply font-bold text-2xl;
+  }
+  .sectionCardsInfo{
+    @apply text-grey2;
+  }
+  .sectionCardsContainer{
+    @apply flex overflow-hidden w-fit;
+  }
+  .interestTitle{
+    @apply text-grey2 font-semibold text-xl;
+  }
+  .interestInfo{
+    @apply text-grey2 text-sm w-9/12;
+  }
+  .interestOption{
+    @apply text-grey bg-white border-grey border-2 w-max px-3 py-2 text-sm rounded-3xl;
   }
   .phoneHidden{
     @apply hidden;
