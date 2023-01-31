@@ -175,14 +175,17 @@ body {
   .formLogin{
     @apply flex flex-col gap-3 w-full m-auto;
   }
+  .formRegister{
+    @apply flex flex-col m-auto w-11/12 gap-4;
+  }
   .buttonForm{
     @apply bg-blue text-white px-2 py-3 font-bold rounded-lg;
   }
   .formInput{
-    @apply border-solid border-black border-2 px-2 py-3 rounded-md;
+    @apply border-solid border-grey border-2 px-2 py-3 rounded-md;
   }
   .detailsFilter{
-    @apply flex items-center justify-between w-11/12 m-auto border-b border-grey2
+    @apply flex items-center justify-center w-11/12 m-auto;
   }
   .detailsMain{
     @apply flex flex-col m-auto w-11/12 mt-4;
@@ -198,6 +201,21 @@ body {
   }
   .buttonVote{
     @apply bg-blue text-white w-full h-10 rounded-full grid place-items-center;
+  }
+  .newPublishHeader{
+    @apply bg-blue text-white;
+  }
+  .newPublishTitle{
+    @apply font-bold text-xl;
+  }
+  .newPublishInfo{
+    @apply text-lg
+  }
+  .newPublishImgs{
+    @apply flex justify-between items-center border-2 border-grey h-44 rounded-2xl
+  }
+  .newPublishImgSelect{
+    @apply bg-grey px-12 py-14 cursor-pointer mx-2
   }
 }
 .home{
