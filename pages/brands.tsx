@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 export default function Brands() {
   return (
     <Layout 
-      title='PC?|Brands and Shops'
+      title='PC?|Brands and Shops' 
       description='Marcas y tiendas de la página Para Cuando?'>
       <main className='bg-brands w-full bg-cover bg-center grid place-items-center py-3'>
         <div className='w-80% m-auto'>
