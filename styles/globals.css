@@ -131,7 +131,7 @@ body {
     @apply border-grey border-2 rounded-3xl h-12 w-full px-2 py-3 text-xs;
   }
   .searchBarLen{
-    @apply fill-grey absolute top-2 right-4;
+    @apply fill-grey absolute top-3 right-4 cursor-pointer;
   }
   .searchContainer{
     @apply w-11/12 flex flex-col items-center gap-5;
@@ -180,6 +180,24 @@ body {
   }
   .formInput{
     @apply border-solid border-black border-2 px-2 py-3 rounded-md;
+  }
+  .detailsFilter{
+    @apply flex items-center justify-between w-11/12 m-auto border-b border-grey2
+  }
+  .detailsMain{
+    @apply flex flex-col m-auto w-11/12 mt-4;
+  }
+  .detailsRoute{
+    @apply font-semibold text-sm;
+  }
+  .detailsTitle{
+    @apply font-bold text-2xl;
+  }
+  .detailsInfo{
+    @apply text-grey2 text-lg;
+  }
+  .buttonVote{
+    @apply bg-blue text-white w-full h-10 rounded-full grid place-items-center;
   }
 }
 .home{
