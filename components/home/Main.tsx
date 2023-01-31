@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Main() {
   return (
-    <main className='home'>
+    <main className='home bg'>
         <svg 
         className='my-10'
         width="200" height="178" viewBox="0 0 214 190" fill="none" xmlns="http://www.w3.org/2000/svg">

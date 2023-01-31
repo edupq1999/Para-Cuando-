@@ -148,12 +148,15 @@ body {
   .cardInfo{
     @apply flex flex-col gap-2 justify-between w-11/12 m-auto p-2 mb-6;
   }
-  
+  .footer{
+    @apply grid place-items-center h-96;
+  }
+  .bg{
+    @apply bg-center bg-cover;
+  }
 }
 .home{
   background-image: linear-gradient(#00000063, #00000033), url('https://www.launica.mx/wp-content/uploads/2022/08/Queretaro-Metropolitano-Arcos-1024x683.jpg');
-  background-position: center;
-  background-size: cover;
 
   display: flex;
   flex-direction: column;
@@ -163,4 +166,7 @@ body {
 .navbar{
   position: relative;
   width: 100%;
+}
+.footerBg{
+  background-image: linear-gradient(#00000063, #00000033), url('https://www.modaes.es/files/2020/empresas/ecoalf/ecoalf-tienda-fuera-because-there-is-no-planet-B-948.jpg');
 }
