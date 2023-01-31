@@ -15,7 +15,7 @@ export default function Home() {
             <h1 className='font-bold'> Populares en Querétaro</h1>
             <p className='text-grey2'>Lo que las personas piden más</p>
           </div>
-          <div className='flex overflow-hidden w-300%'>
+          <div className='flex overflow-hidden w-fit'>
             <Card />
             <Card />
             <Card />
