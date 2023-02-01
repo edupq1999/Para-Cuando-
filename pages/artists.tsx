@@ -12,7 +12,7 @@ export default function Artists() {
       title='PC?|Artist and concerts'
       description='Artistas y conciertos de la página Para Cuando?'>
       <main className='bg artists pageMain'>
-        <div>
+      <div className='md:w-4/5 m-auto'>
           <h3 className='pageRoute'>Home / Artists</h3>
           <h1 className='pageTitle'>Artistas y Conciertos</h1>
           <p className='pageInfo'>Descubre los artistas y conciertos que la gente quiere cerca </p>

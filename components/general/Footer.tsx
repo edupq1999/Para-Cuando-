@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="footer footerBg bg">
-      <div className="relative w-5/6">
+    <footer className="footer footerBg bg ">
+      <div className="relative w-5/6 md:w-2/5">
         <input type="text" 
           placeholder="¿Qué quieres ver en tu ciudad?"
           className="searchBar"/>
