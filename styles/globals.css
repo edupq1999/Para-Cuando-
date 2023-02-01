@@ -88,3 +88,160 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+@layer base{
+  html {
+    font-family: 'Roboto', sans-serif;
+  }
+}
+@layer components{
+  .header{
+    @apply flex items-center justify-between bg-black px-4 text-white h-20;
+  }
+  .headerOption{
+    @apply flex gap-1;
+  }
+  .sectionCards{
+    @apply m-6;
+  }
+  .sectionCardsTitle{
+    @apply font-bold text-2xl;
+  }
+  .sectionCardsInfo{
+    @apply text-grey2;
+  }
+  .sectionCardsContainer{
+    @apply flex overflow-hidden w-fit;
+  }
+  .interestTitle{
+    @apply text-grey2 font-semibold text-xl;
+  }
+  .interestInfo{
+    @apply text-grey2 text-sm w-9/12;
+  }
+  .interestOption{
+    @apply text-grey bg-white border-grey border-2 w-max px-3 py-2 text-sm rounded-3xl;
+  }
+  .phoneHidden{
+    @apply hidden;
+  }
+  .filterButton{
+    @apply bg-white text-grey border-2 rounded-3xl py-1 px-4 text-center text-xs;
+  }
+  .searchBar{
+    @apply border-grey border-2 rounded-3xl h-12 w-full px-2 py-3 text-xs;
+  }
+  .searchBarLen{
+    @apply fill-grey absolute top-3 right-4 cursor-pointer;
+  }
+  .searchContainer{
+    @apply w-11/12 flex flex-col items-center gap-5;
+  }
+  .card{
+    @apply w-80 rounded-3xl shadow-md overflow-hidden m-5;
+  }
+  .cardTitle{
+    @apply font-bold text-xl;
+  }
+  .cardDescription{
+    @apply text-grey2 text-sm;
+  }
+  .cardInfo{
+    @apply flex flex-col gap-2 justify-between w-11/12 m-auto p-2 mb-6;
+  }
+  .pageSearchContainer{
+    @apply grid gap-2 place-items-center w-11/12 mx-auto my-8;
+  }
+  .bg{
+    @apply bg-center bg-cover;
+  }
+  .pageMain{
+    @apply grid place-items-center p-6;
+  }
+  .pageRoute{
+    @apply text-white font-semibold text-lg;
+  }
+  .pageTitle{
+    @apply text-yellow font-extrabold text-4xl;
+  }
+  .pageInfo{
+    @apply text-white text-lg;
+  }
+  .footer{
+    @apply grid place-items-center h-96;
+  }
+  .loginMain{
+    @apply flex flex-col justify-around gap-5 w-11/12;
+  }
+  .formLogin{
+    @apply flex flex-col gap-3 w-full m-auto;
+  }
+  .formRegister{
+    @apply flex flex-col m-auto w-11/12 gap-4;
+  }
+  .buttonForm{
+    @apply bg-blue text-white px-2 py-3 font-bold rounded-lg;
+  }
+  .formInput{
+    @apply border-solid border-grey border-2 px-2 py-3 rounded-md;
+  }
+  .detailsFilter{
+    @apply flex items-center justify-center w-11/12 m-auto;
+  }
+  .detailsMain{
+    @apply flex flex-col m-auto w-11/12 mt-4;
+  }
+  .detailsRoute{
+    @apply font-semibold text-sm;
+  }
+  .detailsTitle{
+    @apply font-bold text-2xl;
+  }
+  .detailsInfo{
+    @apply text-grey2 text-lg;
+  }
+  .buttonVote{
+    @apply bg-blue text-white w-full h-10 rounded-full grid place-items-center;
+  }
+  .newPublishHeader{
+    @apply bg-blue text-white;
+  }
+  .newPublishTitle{
+    @apply font-bold text-xl;
+  }
+  .newPublishInfo{
+    @apply text-lg
+  }
+  .newPublishImgs{
+    @apply flex justify-between items-center border-2 border-grey h-44 rounded-2xl
+  }
+  .newPublishImgSelect{
+    @apply bg-grey px-12 py-14 cursor-pointer mx-2
+  }
+}
+.home{
+  background-image: linear-gradient(#00000063, #00000033), url('https://www.launica.mx/wp-content/uploads/2022/08/Queretaro-Metropolitano-Arcos-1024x683.jpg');
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.navbar{
+  position: relative;
+  width: 100%;
+}
+.brands{
+  background-image: linear-gradient(#00000063, #00000033), url('https://img.freepik.com/foto-gratis/vista-al-interior-hotel_1417-1566.jpg?w=826&t=st=1674778082~exp=1674778682~hmac=53cdbe152ffac35977c14a2a9414a69731e0028564358e5ce37cfda5aedfdb14');
+}
+.artists{
+  background-image: linear-gradient(#00000063, #00000033), url('https://img.freepik.com/fotos-premium/vista-trasera-gran-grupo-personas-divirtiendose-concierto-musica-mientras-ven-actuacion-vivo-escenario_637285-628.jpg?w=996');
+}
+.tournaments{
+  background-image: linear-gradient(#00000063, #00000033), url('https://img.freepik.com/foto-gratis/personas-tiro-medio-jugando-videojuegos_23-2149349983.jpg?w=826&t=st=1674778392~exp=1674778992~hmac=c3ebb49cf8228867e54dad681b6156138eea2295db6c58846e46e32576c8e379');
+}
+.footerBg{
+  background-image: linear-gradient(#00000063, #00000033), url('https://www.modaes.es/files/2020/empresas/ecoalf/ecoalf-tienda-fuera-because-there-is-no-planet-B-948.jpg');
+}
+.loginImg{
+  background-image: linear-gradient(#00000063, #00000033),url('https://imagenes.elpais.com/resizer/oZ48lLxGg17BIT1LKN1vWXGSLB0=/1960x1470/filters:focal(493x263:503x273)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/QAIFOBN73O4VJ5PVH7WEGDEZN4.jpg');
+}

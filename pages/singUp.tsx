@@ -1,6 +1,6 @@
 export default function SingUp() {
   return (
-    <div className="h-screen flex flex-col justify-around m-auto w-4/5 md:w-2/5">
+    <div className="loginMain">
       <svg
         className="m-auto"
         width="187"
@@ -63,15 +63,18 @@ export default function SingUp() {
         />
       </svg>
 
-      <h1 className="font-bold ">Sign Up</h1>
+      <h1 className="font-bold text-3xl">Sign Up</h1>
       <p className="text-grey2">
         Login with the data entered during your registration.
       </p>
+      <a className="text-blue font-bold w-max" href="./home">
+        Back
+      </a>
       <form className="grid grid-rows-3 gap-3 grid-cols-2">
         <div className="flex flex-col col-span-2">
           <span className="font-bold">Email</span>
           <input
-            className="px-2 py-3 text-grey2 rounded-md border-solid border-black border-2"
+            className="formInput"
             type="email"
             placeholder="Enter your email"
           />
@@ -79,7 +82,7 @@ export default function SingUp() {
         <div className="col-start-1 col-end-2 flex flex-col">
           <span className="font-bold">Nombre</span>
           <input
-            className="px-2 py-3 text-grey2 rounded-md border-solid border-black border-2"
+            className="formInput"
             type="text"
             placeholder="Enter your name"
           />
@@ -87,7 +90,7 @@ export default function SingUp() {
         <div className="col-start-2 col-end-3 flex flex-col">
           <span className="font-bold">Apellido</span>
           <input
-            className="px-2 py-3 text-grey2 rounded-md border-solid border-black border-2"
+            className="formInput"
             type="text"
             placeholder="Enter your lastname"
           />
@@ -95,14 +98,12 @@ export default function SingUp() {
         <div className="col-span-2 flex flex-col">
           <span className="font-bold">Password</span>
           <input
-            className="px-2 py-3 text-grey2 rounded-md border-solid border-black border-2"
+            className="formInput"
             type="text"
             placeholder="Enter your password"
           />
         </div>
-        <button className="col-span-2 bg-blue text-white rounded-lg h-9">
-          Sign In
-        </button>
+        <button className="col-span-2 buttonForm">Sign In</button>
       </form>
       <a className="text-grey2 m-auto" href="./login">
         {' '}

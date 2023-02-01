@@ -5,18 +5,18 @@ export default function NewPublishInfo() {
   return (
     <>
       <Header />
-      <button className='text-blue ml-10 mt-10 font-bold'>Back</button>
-      <form className='flex flex-col m-auto w-11/12 gap-4'>
+      <button className='text-blue text-lg ml-4 mt-2 font-bold'>Back</button>
+      <form className='formRegister pb-10'>
         <div>
-          <h1 className='font-bold text-20'>Publicación</h1>
-          <span className='text-15'>Información Básica</span>
+          <h1 className='newPublishTitle'>Publicación</h1>
+          <span className='newPublishInfo'>Información Básica</span>
         </div>
         <input 
-          className='border-grey border-solid border-2 px-2 py-2 rounded-xl'
+          className='formInput'
           type="text" 
           placeholder='Título de publicación'/>
         <select 
-          className='border-grey border-solid border-2 px-2 py-2 rounded-xl text-grey'
+          className='formInput text-grey'
           name="type" 
           id="type" 
           placeholder='Tipo'>
@@ -25,7 +25,7 @@ export default function NewPublishInfo() {
           <option value="tournaments">Torneos</option>
         </select>
         <select 
-          className='border-grey border-solid border-2 px-2 py-2 rounded-xl text-grey'
+          className='formInput text-grey'
           name="category" 
           id="category" 
           placeholder='Categoría'
@@ -40,15 +40,17 @@ export default function NewPublishInfo() {
           <option value="home">Hogar / Decoración</option>
           <option value="catering">Abastecimiento</option>
         </select>
-        <input 
-          className='border-grey border-solid border-2 px-2 py-32 rounded-xl'
-          type="text" 
+        <textarea 
+          className='formInput h-40 '
           placeholder='¿Por qué lo recomiendas?'/>
         <input 
-          className='border-grey border-solid border-2 px-2 py-2 rounded-xl'
+          className='formInput'
           type="text" 
           placeholder='Link de referencia'/>
-        <button className='m-auto bg-blue text-white py-2 px-4 rounded-4xl font-semibold'>Siguiente</button>
+        <button className='buttonForm'>Siguiente</button>
+        <a 
+          className='text-center text-lg font-semibold'
+          href="./login">Or Log In</a>
       </form>
     </>
   )
