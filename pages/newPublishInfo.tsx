@@ -48,10 +48,7 @@ export default function NewPublishInfo() {
           className='formInput'
           type="text" 
           placeholder='Link de referencia'/>
-        <button className='buttonForm'>Siguiente</button>
-        <a 
-          className='text-center text-lg font-semibold'
-          href="./login">Or Log In</a>
+        <a href='./newPublishImgs' className='buttonForm text-center'>Siguiente</a>
       </form>
       </div>
     </>
