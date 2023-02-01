@@ -11,7 +11,7 @@ export default function Brands() {
     <Layout 
       title='PC?|Brands and Shops' 
       description='Marcas y tiendas de la página Para Cuando?'>
-      <main className='bg brands pageMain'>
+      <main className='bg brands pageMain mainWidth'>
         <div className='md:w-4/5 m-auto'>
           <h3 className='pageRoute'>Home / Marcas</h3>
           <h1 className='pageTitle'>Marcas y tiendas</h1>

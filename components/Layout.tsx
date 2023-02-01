@@ -12,7 +12,7 @@ export default function Layout({ children, title, description }: {children: any,
         </Head>
         <Header />
 
-            <main>
+            <main className="w-4/5 mx-auto">
                 {children}
             </main>
 

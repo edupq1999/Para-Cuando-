@@ -215,13 +215,16 @@ body {
     @apply font-bold text-xl;
   }
   .newPublishInfo{
-    @apply text-lg
+    @apply text-lg;
   }
   .newPublishImgs{
-    @apply flex justify-between items-center border-2 border-grey h-44 rounded-2xl
+    @apply flex justify-between items-center border-2 border-grey h-44 rounded-2xl;
   }
   .newPublishImgSelect{
-    @apply bg-grey px-12 py-14 cursor-pointer mx-2
+    @apply bg-grey px-12 py-14 cursor-pointer mx-2;
+  }
+  .mainWidth{
+    @apply w-[100vw] ml-[-10vw];
   }
 }
 .home{

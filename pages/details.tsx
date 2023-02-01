@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 export default function Details() {
   return (
     <Layout>
-      <div className='shadow-md'>
+      <div className='shadow-md mainWidth'>
         <div className='detailsFilter md:w-4/5'>
         <div className='filterDetailsPhone md:filterDetailsPC md:w-4/5'>
           <svg 

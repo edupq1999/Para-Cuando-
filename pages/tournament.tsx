@@ -11,7 +11,7 @@ export default function Tournament() {
     <Layout
       title='PC?|Artist and concerts'
       description='Artistas y conciertos de la página Para Cuando?'>
-      <main className='bg tournaments pageMain'>
+      <main className='bg tournaments pageMain mainWidth'>
       <div className='md:w-4/5 m-auto'>
           <h3 className='pageRoute'>Home / Tournaments</h3>
           <h1 className='pageTitle'>Torneos</h1>
