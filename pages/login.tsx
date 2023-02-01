@@ -1,7 +1,7 @@
 export default function Login() {
   return (
-    <div className="loginMain sm:flex-row sm:gap-14">
-      <div className="loginImg hidden relative md:grid place-items-center w-1/2">
+    <div className="md:flex gap-10">
+      <div className="hidden relative md:grid place-items-center w-1/2">
         <div className="loginImg h-screen w-full bg"></div>
         <svg
           className="absolute"
@@ -145,9 +145,9 @@ export default function Login() {
           />
         </svg>
       </div>
-      <div className="md:w-1/2">
+      <div className="loginMain md:w-1/2 mr-10 mt-10">
         <svg
-          className="mx-auto my-20"
+          className="mx-auto"
           width="187"
           height="168"
           viewBox="0 0 187 168"

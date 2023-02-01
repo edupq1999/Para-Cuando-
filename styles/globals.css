@@ -170,7 +170,7 @@ body {
     @apply grid place-items-center h-96;
   }
   .loginMain{
-    @apply flex flex-col justify-around gap-5 w-11/12;
+    @apply flex flex-col justify-around gap-5 w-11/12 m-auto;
   }
   .formLogin{
     @apply flex flex-col gap-3 w-full m-auto;
@@ -244,4 +244,7 @@ body {
 }
 .loginImg{
   background-image: linear-gradient(#00000063, #00000033),url('https://imagenes.elpais.com/resizer/oZ48lLxGg17BIT1LKN1vWXGSLB0=/1960x1470/filters:focal(493x263:503x273)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/QAIFOBN73O4VJ5PVH7WEGDEZN4.jpg');
+}
+.registerImg{
+  background-image: linear-gradient(#00000063, #00000033),url('https://los40es00.epimg.net/los40/imagenes/2017/02/06/musica/1486367147_194336_1486369812_noticia_normal.jpg');
 }
