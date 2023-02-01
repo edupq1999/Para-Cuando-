@@ -166,6 +166,12 @@ body {
   .pageInfo{
     @apply text-white text-lg;
   }
+  .filterDetailsPhone{
+    @apply p-3 border-2 border-grey rounded-full w-max aspect-square cursor-pointer;
+  }
+  .filterDetailsPC{
+    @apply p-0 border-0 rounded-none aspect-auto cursor-auto
+  }
   .footer{
     @apply grid place-items-center h-96;
   }
