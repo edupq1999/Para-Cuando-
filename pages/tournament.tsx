@@ -12,7 +12,7 @@ export default function Tournament() {
       title='PC?|Artist and concerts'
       description='Artistas y conciertos de la página Para Cuando?'>
       <main className='bg tournaments pageMain'>
-        <div>
+      <div className='md:w-4/5 m-auto'>
           <h3 className='pageRoute'>Home / Tournaments</h3>
           <h1 className='pageTitle'>Torneos</h1>
           <p className='pageInfo'>Descubre los torneos que la gente quiere cerca </p>

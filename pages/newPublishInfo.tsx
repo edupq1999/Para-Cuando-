@@ -4,9 +4,10 @@ import Header from '../components/newPublish/Header'
 export default function NewPublishInfo() {
   return (
     <>
+    <div className='md:flex'>
       <Header />
-      <button className='text-blue text-lg ml-4 mt-2 font-bold'>Back</button>
-      <form className='formRegister pb-10'>
+      <a href='./home' className='text-blue text-lg ml-4 mt-2 font-bold md:mt-10 h-5'>Back</a>
+      <form className='formRegister pb-10 mr-10'>
         <div>
           <h1 className='newPublishTitle'>Publicación</h1>
           <span className='newPublishInfo'>Información Básica</span>
@@ -47,11 +48,9 @@ export default function NewPublishInfo() {
           className='formInput'
           type="text" 
           placeholder='Link de referencia'/>
-        <button className='buttonForm'>Siguiente</button>
-        <a 
-          className='text-center text-lg font-semibold'
-          href="./login">Or Log In</a>
+        <a href='./newPublishImgs' className='buttonForm text-center'>Siguiente</a>
       </form>
+      </div>
     </>
   )
 }

@@ -125,7 +125,7 @@ body {
     @apply hidden;
   }
   .filterButton{
-    @apply bg-white text-grey border-2 rounded-3xl py-1 px-4 text-center text-xs;
+    @apply bg-white text-grey border-2 rounded-3xl py-3 px-4 text-center text-xs;
   }
   .searchBar{
     @apply border-grey border-2 rounded-3xl h-12 w-full px-2 py-3 text-xs;
@@ -155,7 +155,7 @@ body {
     @apply bg-center bg-cover;
   }
   .pageMain{
-    @apply grid place-items-center p-6;
+    @apply p-6 md:px-0;
   }
   .pageRoute{
     @apply text-white font-semibold text-lg;
@@ -165,6 +165,12 @@ body {
   }
   .pageInfo{
     @apply text-white text-lg;
+  }
+  .filterDetailsPhone{
+    @apply p-3 border-2 border-grey rounded-full w-max aspect-square cursor-pointer;
+  }
+  .filterDetailsPC{
+    @apply p-0 border-0 rounded-none aspect-auto cursor-auto
   }
   .footer{
     @apply grid place-items-center h-96;

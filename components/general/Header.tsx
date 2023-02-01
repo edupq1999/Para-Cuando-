@@ -24,21 +24,21 @@ const Header = () => {
         {
           logged
           ?
-          <li className="headerOption phoneHidden">
+          <a href="newPublishInfo" className="headerOption phoneHidden">
             <svg width="15" height="15" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16 9.14286H9.14286V16H6.85714V9.14286H0V6.85714H6.85714V0H9.14286V6.85714H16V9.14286Z" fill="#1B4DB1"/>
             </svg>
 
             <span className="text-blue">Crear publicación</span>
-          </li>
+          </a>
           :
-          <li className="headerOption">
+          <a href="newPublishInfo" className="headerOption">
             <svg width="15" height="15" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16 9.14286H9.14286V16H6.85714V9.14286H0V6.85714H6.85714V0H9.14286V6.85714H16V9.14286Z" fill="#1B4DB1"/>
             </svg>
 
             <span className="text-blue">Crear publicación</span>
-          </li>
+          </a>
         }
         {
           logged 
