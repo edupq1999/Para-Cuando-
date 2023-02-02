@@ -6,7 +6,7 @@ export default function NewPublishInfo() {
     <>
     <div className='md:flex'>
       <Header />
-      <a href='./home' className='text-blue text-lg ml-4 mt-2 font-bold md:mt-10 h-5'>Back</a>
+      <a href='./home' className='text-blue text-lg w-20 ml-4 mt-2 font-bold md:mt-10 h-5'>Back</a>
       <form className='formRegister pb-10 mr-10'>
         <div>
           <h1 className='newPublishTitle'>Publicación</h1>
