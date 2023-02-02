@@ -88,6 +88,32 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+.swiper-container {
+  cursor: pointer;
+  width: 340px;
+}
+
+@media screen and (min-width: 680px) {
+  .swiper-container {
+    width: 680px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .swiper-container {
+    width: 980px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .swiper-container {
+    width: 1280px;
+  }
+}
+@media screen and (min-width: 1616px) {
+  .swiper-container {
+    width: 1616px;
+  }
+}
 @layer base{
   html {
     font-family: 'Roboto', sans-serif;
